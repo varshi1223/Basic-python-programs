@@ -1,0 +1,3 @@
+a=int(input("enter a nbumber:"))
+square=a*a
+print("square of given numbers:",square)
