@@ -1,0 +1,10 @@
+m=int(input("enter first number:"))
+n=int(input("enter second number:"))
+if(m>n):
+  print("invalid")
+else:
+  product=1
+  for i in range(m,n+1):
+    product=product*i
+  print(product)
+    
