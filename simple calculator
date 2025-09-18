@@ -1,0 +1,14 @@
+a=int(input("enter first number:"))
+b=int(input("enter second number:"))
+operator=int(input("enter 1=+,2=-,3=*,4=%"))
+if(operator==1):
+  print("addition=",a+b)
+elif(operator==2):
+  print("subtraction=",a-b)
+elif(operator==3):
+  print("multiplication=",a*b)
+elif(operator==4):
+  print("division=",a%b)
+else:
+  print("invalid operator")
+
